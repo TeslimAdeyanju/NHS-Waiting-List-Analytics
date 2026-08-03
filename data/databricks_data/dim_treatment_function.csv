@@ -1,0 +1,26 @@
+treatment_function_key,treatment_function_code,treatment_function_name
+1,C_100,General Surgery
+2,C_101,Urology
+3,C_110,Trauma & Orthopaedics
+4,C_120,"Ear, Nose & Throat (ENT)"
+5,C_130,Ophthalmology
+6,C_140,Oral Surgery
+7,C_150,Neurosurgery
+8,C_160,Plastic Surgery
+9,C_170,Cardiothoracic Surgery
+10,C_300,General Medicine
+11,C_301,Gastroenterology
+12,C_320,Cardiology
+13,C_330,Dermatology
+14,C_340,Thoracic Medicine
+15,C_400,Neurology
+16,C_410,Rheumatology
+17,C_430,Geriatric Medicine
+18,C_502,Gynaecology
+19,C_999,Total
+20,X01,Other
+21,X02,Other - Medical Services
+22,X03,Other - Mental Health Services
+23,X04,Other - Paediatric Services
+24,X05,Other - Surgical Services
+25,X06,Other - Other Services

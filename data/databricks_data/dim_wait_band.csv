@@ -1,0 +1,13 @@
+wait_band_key,band_label,lower_weeks,upper_weeks,is_breach,is_long_waiter
+1,0-5 weeks,0,5.0,0,0
+2,6-10 weeks,6,10.0,0,0
+3,11-15 weeks,11,15.0,0,0
+4,16-18 weeks,16,18.0,0,0
+5,19-23 weeks,19,23.0,1,0
+6,24-28 weeks,24,28.0,1,0
+7,29-33 weeks,29,33.0,1,0
+8,34-38 weeks,34,38.0,1,0
+9,39-43 weeks,39,43.0,1,0
+10,44-48 weeks,44,48.0,1,0
+11,49-52 weeks,49,52.0,1,0
+12,52+ weeks,52,,1,1

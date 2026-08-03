@@ -1,0 +1,8 @@
+region_key,region_code,region_name,nhs_region_abbrev
+1,Y56,North East and Yorkshire,NHSE-NEY
+2,Y58,North West,NHSE-NW
+3,Y59,Midlands,NHSE-MID
+4,Y60,East of England,NHSE-EOE
+5,Y61,London,NHSE-LON
+6,Y62,South East,NHSE-SE
+7,Y63,South West,NHSE-SW
