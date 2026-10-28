@@ -1,6 +1,6 @@
 # NHS Waiting List Analytics
 
-**Period:** April 2019 to December 2025 (project scope) | **Data:** NHS England Referral to Treatment (RTT) statistics | **Tools:** Python, MySQL, SQL, Databricks, Power BI and DAX
+This project grew from a need to understand why NHS waiting lists change and whether falling numbers always represent better access to treatment. I analysed NHS England's Referral to Treatment statistics using Python, SQL, MySQL and Databricks to examine waiting-list trends alongside new treatment pathways and completed treatments.
 
 ## The research question
 
