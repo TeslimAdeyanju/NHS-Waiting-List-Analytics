@@ -332,7 +332,7 @@ Full technical reference for the Databricks track is in the `databricks/` direct
 
 ### Overview
 
-![End-to-End Analytics Pipeline](assets/end-to-end-analytics-pipeline.png)
+![End-to-End Analytics Pipeline](assets/end_to_end_analytics_pipeline.png)
 
 The diagram above shows the full four-stage flow: raw NHS England Excel files → Python ETL → structured star schema → analytical mart views → Power BI dashboard.
 
@@ -606,7 +606,7 @@ DIVIDE([Waiting Over 18wks], [Total Waiting], 0) * 100
 portfolio-24-nhs-waiting-list-analytics/
 │
 ├── README.md                             Quick-start overview
-├── PROJECT_DOCUMENTATION.md             This file — complete project guide
+├── project_documentation.md             This file — complete project guide
 │
 ├── sql/
 │   ├── schema.sql                        Star schema DDL — dimensions, facts, seed data
@@ -634,7 +634,7 @@ portfolio-24-nhs-waiting-list-analytics/
 │   └── 01_referral_suppression_analysis.ipynb   Exploratory Python analysis with charts
 │
 ├── assets/
-│   └── end-to-end-analytics-pipeline.png  4-stage architecture diagram
+│   └── end_to_end_analytics_pipeline.png  4-stage architecture diagram
 │
 └── data/
     ├── raw/                              Downloaded NHS England .xls / .xlsx files (gitignored)

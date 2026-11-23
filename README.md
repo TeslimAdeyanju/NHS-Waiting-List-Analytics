@@ -10,7 +10,7 @@ This project grew from a need to understand why NHS waiting lists change and whe
 
 **How I investigated it:** I used NHS England's published RTT files to analyse incomplete pathways, treatment activity and new RTT clock starts across reporting periods. Python scripts process the source Excel publications into standardised datasets; a MySQL dimensional model and Databricks SQL workflows support time-series and trust-level comparisons. The repository also contains DAX measures and specifications for a Power BI reporting model.
 
-[Read the complete project methodology](PROJECT_DOCUMENTATION.md).
+[Read the complete project methodology](project_documentation.md).
 
 ## Key findings
 
@@ -33,7 +33,7 @@ This project grew from a need to understand why NHS waiting lists change and whe
 
 **Why it matters:** Waiting-list performance needs to be interpreted alongside both incoming pathways and completed treatments. Looking only at the waiting-list total can obscure changes in access and demand.
 
-These approximate figures come from the project's existing analysis and have **not been independently recalculated for this README revision**. The columns compare different kinds of periods, so they should not be treated as like-for-like monthly averages without checking the underlying definitions. New RTT periods are *clock starts*, not exclusively GP referrals. See the [full project documentation](PROJECT_DOCUMENTATION.md) for assumptions, calculations and context.
+These approximate figures come from the project's existing analysis and have **not been independently recalculated for this README revision**. The columns compare different kinds of periods, so they should not be treated as like-for-like monthly averages without checking the underlying definitions. New RTT periods are *clock starts*, not exclusively GP referrals. See the [full project documentation](project_documentation.md) for assumptions, calculations and context.
 
 ## Power BI dashboard
 
@@ -45,13 +45,13 @@ The designed reporting views cover national waiting-list trends, referral and tr
 
 ![NHS Waiting List Analytics pipeline](screenshots/nhs_waiting_list_work_flow.png)
 
-The project combines Python extraction and transformation with a MySQL reporting model and a parallel Databricks Delta Lake track. For schemas, staging, analytical views and implementation details, see [Project Documentation](PROJECT_DOCUMENTATION.md).
+The project combines Python extraction and transformation with a MySQL reporting model and a parallel Databricks Delta Lake track. For schemas, staging, analytical views and implementation details, see [Project Documentation](project_documentation.md).
 
 ## Documentation and reproducibility
 
 | Resource | What it contains |
 | --- | --- |
-| [Project Documentation](PROJECT_DOCUMENTATION.md) | NHS RTT context, research design, data preparation, methodology and findings |
+| [Project Documentation](project_documentation.md) | NHS RTT context, research design, data preparation, methodology and findings |
 | [Power BI Measures](powerbi/measures.md) | DAX and dashboard design |
 | [Databricks Star Schema](databricks/06_star_schema_relationships.md) | Data model and relationships |
 | [SQL Analytics](sql/analysis.sql) | Waiting-list and pathway analysis queries |
@@ -66,4 +66,4 @@ To reproduce the analysis, install the dependencies in `requirements.txt`, confi
 
 **Teslim Adeyanju** | [Portfolio](https://adeyanjuteslim.co.uk) | [LinkedIn](https://www.linkedin.com/in/adeyanjuteslimuthman)
 
-[Previous detailed README](docs/readme-history.md)
+[Previous detailed README](docs/readme_history.md)

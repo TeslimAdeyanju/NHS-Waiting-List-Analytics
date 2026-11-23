@@ -8,7 +8,7 @@ Data source:
     https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/
 
 Financial year pages use the format: rtt-data-2024-25
-File naming pattern: Incomplete-Provider-Mar25-XLSX-9M-revised.xlsx
+File naming pattern: incomplete_provider_mar25_xlsx_9m_revised.xlsx
 
 We download Provider-level files only (not Commissioner):
     - Incomplete-Provider    → waiting list snapshot
